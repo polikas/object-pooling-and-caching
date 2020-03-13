@@ -66,6 +66,10 @@
     <Compile Include="Assets\Cache Scripts\NoCaching.cs" />
     <Compile Include="Assets\Cache Scripts\PartialCaching.cs" />
     <Compile Include="Assets\ObjectPooling Scripts\ObjectPool.cs" />
+    <Compile Include="Assets\Search Algorithms\Jump Search\JumpSearch.cs" />
+    <Compile Include="Assets\Search Algorithms\Linear Search\LinearSearch.cs" />
+    <Compile Include="Assets\Sort Algorithms\Bubble Sort\BubbleSort.cs" />
+    <Compile Include="Assets\Sort Algorithms\Insertion Sort\InsertionSort.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>E:/Unity Projects/Optimisation Techniques/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

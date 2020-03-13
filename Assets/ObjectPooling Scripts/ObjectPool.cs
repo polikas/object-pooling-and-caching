@@ -26,7 +26,7 @@ public class ObjectPool : MonoBehaviour
     {
 
 
-
+        /*
         if(!bullets[0].activeInHierarchy || !bullets[bullets.Count - 1].activeInHierarchy)
         {
             foreach(GameObject bullet in bullets)
@@ -48,7 +48,8 @@ public class ObjectPool : MonoBehaviour
                 indexToSave++;
             }
         }
-        /*
+        */
+        
         for (int i = 0; i < bullets.Count; i++)
         {
             if (!bullets[i].activeInHierarchy)
@@ -58,12 +59,7 @@ public class ObjectPool : MonoBehaviour
                 bullets[i].SetActive(true);
                 break;
             }
-            if (bullets[i].activeInHierarchy)
-            {
-                bullets[i].SetActive(false);
-            }
-           
         }
-        */
+        
     }
 }
